@@ -1,0 +1,8 @@
+
+$ curl 'http://localhost:8080/studentCourseList'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   216    0   216    0     0    123      0 --:--:--  0:00:01 --:--:--   123[
+
+{"courseId":"a1","studentId":"1","courseName":"JAVA","startDay":"2024-07-01","completionDate":"2024-12-01"},
+{"courseId":"a2","studentId":"2","courseName":"AWS","startDay":"2024-09-23","completionDate":"2025-07-09"}]
