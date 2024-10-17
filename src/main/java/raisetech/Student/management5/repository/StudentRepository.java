@@ -9,7 +9,7 @@ import raisetech.Student.management5.data.Students_Courses;
 @Mapper
 public interface StudentRepository {
 
-  @Select("SELECT * FROM students ")
+  @Select("SELECT * FROM students WHERE NOT isDeleted=1")
   List<Student> search();
 
   @Select("SELECT * FROM students_courses")
